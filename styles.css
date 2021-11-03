@@ -1,3 +1,105 @@
 body {
-  background-color: #ff00aa;
+  background-color: #161A1D;
+  text-align: center;
+  margin:0;
+  padding: 0;
+  font-family: "Montserrat" , sans-serif;
+  font-weight: 300;
+}
+
+.navcontainer nav {
+background: #C29779
+display: block;
+}
+
+.navcontainer ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%
+  margin: 0px;
+  padding: 0px;
+}
+
+.navcontainer li {
+  margin: 2px;
+  padding: 10px;
+}
+
+.navcontainer a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: inherit;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.navcontainer a:hover {
+  color: white;
+
+}
+#title {
+  font-family: 'Crimson Text' , serif;
+  color: white;
+  font-weight: 400;
+  background: #A4161A;
+  margin: 0px;
+  padding: 25px;
+  font-size: 2.5em;
+}
+
+#intro-header {
+  font-family: 'Crimson Text' , serif;
+  color: white;
+  font-size: 2em;
+  margin-block-end: 0em;
+}
+
+p{
+  font-family: 'Montserrat' , serif;
+  font-size: 1em;
+  display: block;
+  color: white;
+  line-height: 1.5;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+}
+
+#stream {
+  width: 30%;
+  height: 20%;
+}
+
+#second-header {
+  font-family: 'Montserrat' , serif;
+  color: white;
+  margin-block-end: 1.5em;
+  font-size: 1.8em;
+}
+footer {
+  font-family: 'Montserrat' , serif;
+  color: white;
+  font-weight: 600;
+  background: #A4161A;
+  margin: 0px;
+  padding: 15px;
+  font-size: 1.15em;
+
+}
+
+#menu_trigger {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#menu_nav {
+  display: none;
 }
