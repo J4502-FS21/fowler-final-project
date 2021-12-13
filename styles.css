@@ -1,5 +1,5 @@
 body {
-  background-color: #161A1D;
+  background-color: #white;
   text-align: center;
   margin:0;
   padding: 0;
@@ -33,7 +33,7 @@ display: block;
   font-weight: bold;
   font-style: normal;
   text-transform: inherit;
-  color: white;
+  color: black;
   font-weight: 600;
   font-size: 1.25em;
 }
