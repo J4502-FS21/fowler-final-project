@@ -5,7 +5,6 @@ var menuNav = document.getElementById("menu_nav");
 var menuTrigger = document.getElementById('menu_trigger');
 
 function menuToggle() {
-  console.log(menuNav.style.display);
   if (menuNav.style.display === "flex") {
     menuNav.style.display = "none";
   } else {
