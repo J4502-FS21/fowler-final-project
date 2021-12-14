@@ -54,7 +54,7 @@ display: block;
 
 #intro-header {
   font-family: 'Oswald' , serif;
-  color: black;
+  color: white;
   font-size: 2em;
   margin-block-end: 0em;
 }
@@ -63,7 +63,7 @@ p{
   font-family: 'Oswald' , serif;
   font-size: 1em;
   display: block;
-  color: black;
+  color: white;
   line-height: 1.5;
   margin-block-start: 1em;
   margin-block-end: 1em;
