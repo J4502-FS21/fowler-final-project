@@ -23,7 +23,7 @@ menuTrigger.onclick = menuToggle;
 
 window.onresize = checkWindowSize;
 
-var slideIndex = 1;
+var slideIndex = 2;
 showSlides(slideIndex)
 
 function plusSlides(n) {
